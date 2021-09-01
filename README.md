@@ -1,5 +1,5 @@
 # oce-dataset
-Datasets for Online Controlled Experiments
+Datasets for Online Controlled Experiments - Under review.
 
 
 # Setup
@@ -8,6 +8,9 @@ Linux would do).
 
 The projects uses `pyenv` and `poetry` for package management.
 Before you start, please ensure you have `gcc`, `make`, and `pip` installed.
+
+## Loading the dataset
+The notebook uses the parquet form of the dataset. Download the `*.parquet` file and place it in the `data` directory.
 
 ## Installing `pyenv`
 
