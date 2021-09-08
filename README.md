@@ -29,6 +29,7 @@ chmod u+x pyenv-installer
 For OS X:
 ```
 brew install pyenv
+brew install pyenv-virtualenv
 ```
 
 We then need to configure the PATHs:
