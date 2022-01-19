@@ -4,9 +4,9 @@ This is a project in two parts:
 1. The first survey and taxonomy for existing online controlled experiment datasets, and
 2. The ASOS Digital Experiments dataset - the first public dataset that supports the design and running of experiments with adaptive stopping.
 
-The work is accepted into NeurIPS 2021 Track on Datasets and Benchmarks. (Link to [OpenReview](https://openreview.net/forum?id=79shW3z5Eaq) | [arXiv](https://arxiv.org/abs/2111.10198))
+The work is accepted into NeurIPS 2021 Track on Datasets and Benchmarks. (Link to [NeurIPS pre-proceedings](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/274ad4786c3abca69fa097b85867d9a4-Abstract-round2.html) | [OpenReview](https://openreview.net/forum?id=79shW3z5Eaq) | [arXiv](https://arxiv.org/abs/2111.10198))
 
-If you find the work helpful, please use the following citation:
+If you find the project helpful, please use the following citation while we wait for NeurIPS to finalise the bibtex:
 ```
 @misc{liu2021datasets,
       title={Datasets for Online Controlled Experiments}, 
@@ -17,7 +17,6 @@ If you find the work helpful, please use the following citation:
       primaryClass={stat.AP}
 }
 ```
-
 
 # Survey of existing OCE datasets
 
