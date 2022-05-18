@@ -90,6 +90,7 @@ cd oce-dataset
 
 # Switch to Python 3.8.1 for pyenv
 pyenv local 3.8.1
+poetry env use ~/.pyenv/versions/3.8.1/bin/python
 poetry install
 ```
 
