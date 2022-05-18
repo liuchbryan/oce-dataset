@@ -29,9 +29,16 @@ A summary of the survey, together with the direct links to the datasets are avai
 
 ## Loading the ASOS Digital Experiments dataset
 
-The dataset is available on: https://osf.io/64jsb/
+The dataset is available on: https://osf.io/64jsb/ .
 
-The notebook in this repo uses the parquet form of the dataset. Download the `*.parquet` file ([direct link](https://osf.io/62t7f/download)) and place it in the `data` directory.
+The experiment notebook uses the parquet form of the dataset. It would attempt to download the file before getting pandas to load the dataframe. If that doesn't work, you can either:
+
+To get the parquet form of the dataset used in the experiments, you can do one of:
+* Download the file via [this direct link](https://osf.io/62t7f/download) and place it in the `data` directory, or
+* Use the following command at the root of this repo:
+  ```
+  wget -O ./data/asos_digital_experiments_dataset.parquet https://osf.io/62t7f/download
+  ```
 
 ## Setup
 This file assumes you have access to a \*nix-like machine (both MacOS or
