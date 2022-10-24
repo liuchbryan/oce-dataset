@@ -8,7 +8,7 @@ The work is accepted into NeurIPS 2021 Track on Datasets and Benchmarks. (Link t
 
 If you find the project helpful, please use the following citation:
 ```
-@inproceedings{NEURIPS DATASETS AND BENCHMARKS2021_274ad478,
+@inproceedings{liu2021datasets,
  author = {Liu, C. H. Bryan and Cardoso, \^{A}ngelo and Couturier, Paul and McCoy, Emma J.},
  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
  editor = {J. Vanschoren and S. Yeung},
@@ -77,7 +77,7 @@ eval "$(pyenv virtualenv-init -)"
 
 ...and install the right Python version for our environment:
 ```
-pyenv install 3.8.1
+pyenv install 3.9.10
 ```
 
 ### Installing `poetry`
@@ -88,9 +88,9 @@ See https://python-poetry.org/docs/#installation for the installation instructio
 git clone https://github.com/liuchbryan/oce-dataset.git
 cd oce-dataset  
 
-# Switch to Python 3.8.1 for pyenv
-pyenv local 3.8.1
-poetry env use ~/.pyenv/versions/3.8.1/bin/python
+# Switch to Python 3.9.10 for pyenv
+pyenv local 3.9.10
+poetry env use ~/.pyenv/versions/3.9.10/bin/python
 poetry install
 ```
 
