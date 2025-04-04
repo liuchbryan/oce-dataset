@@ -77,7 +77,7 @@ eval "$(pyenv virtualenv-init -)"
 
 ...and install the right Python version for our environment:
 ```
-pyenv install 3.9.10
+pyenv install 3.12.9
 ```
 
 ### Installing `poetry`
@@ -88,9 +88,8 @@ See https://python-poetry.org/docs/#installation for the installation instructio
 git clone https://github.com/liuchbryan/oce-dataset.git
 cd oce-dataset  
 
-# Switch to Python 3.9.10 for pyenv
-pyenv local 3.9.10
-poetry env use ~/.pyenv/versions/3.9.10/bin/python
+# Switch to Python 3.12.9 for pyenv
+poetry env use ~/.pyenv/versions/3.12.9/bin/python
 poetry install
 ```
 
